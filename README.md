@@ -50,17 +50,21 @@ python typing_bot.py --wpm 60
 ➡️ The bot will open Chrome, wait for the test to load, then type words as fast as possible until it reaches the target character count (based on WPM × 5).
 
 4. **📁 Project Structure**:
+```
 typing-speed-bot/
 ├── typing_bot.py         # Main script
 ├── requirements.txt      # Required dependencies
 ├── README.md             # This file
-
+```
 5. **Requirements.txt Contents**:
+```
 selenium>=4.0.0
 webdriver-manager>=3.0.0
 beautifulsoup4>=4.9.0
+```
+6. **Contributing**:   
 
-6. **Contributing**:
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 
