@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
-
+from selenium.webdriver.chrome.service import Service
 
 
 TEN_FAST_FINGERS_URL = "https://10fastfingers.com/typing-test/english"
@@ -20,15 +20,16 @@ def get_desired_character_count() -> int:
     args = parser.parse_args()
     return args.wpm * CHARACTERS_PER_WORD
 
-
 def setup_browser() -> webdriver.Chrome:
     """Initialize and return the Chrome browser instance."""
     print("Launching browser...")
-    browser = webdriver.Chrome(ChromeDriverManager().install())
+    service = Service(ChromeDriverManager().install())
+    browser = webdriver.Chrome(service=service)
     browser.get(TEN_FAST_FINGERS_URL)
     print("Waiting for page to load (Cloudflare)...")
-    sleep(10)
+    sleep(5)
     return browser
+
 
 def get_word_list(browser) -> list:
     """Scrape the word list from the 10FastFingers page."""

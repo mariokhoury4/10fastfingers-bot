@@ -16,8 +16,9 @@ Give it a target WPM (Words Per Minute), and it’ll type for you as fast as pos
 ---
 
 ## 📸 Demo
-
-<img src="https://user-images.githubusercontent.com/your-gif-or-screenshot-url" width="600" alt="demo of bot typing on 10fastfingers" />
+<video width="600" height="600" controls>
+  <source src="https://github.com/mariokhoury4/10fastfingers-bot/blob/main/media/demo.mp4" type="video/mp4">
+</video>
 
 ---
 
@@ -34,9 +35,10 @@ Give it a target WPM (Words Per Minute), and it’ll type for you as fast as pos
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/typing-speed-bot.git
+git clone https://github.com/mariokhoury4/typing-speed-bot.git
 cd typing-speed-bot
 ```
+
 2. **Install the dependencies**:
 ```
 pip install -r requirements.txt
