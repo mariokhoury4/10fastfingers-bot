@@ -36,17 +36,17 @@ Give it a target WPM (Words Per Minute), and it’ll type for you as fast as pos
 ```bash
 git clone https://github.com/your-username/typing-speed-bot.git
 cd typing-speed-bot
-
+```
 2. **Install the dependencies**:
-
+```
 pip install -r requirements.txt
-
+```
 
 3. **Usage**:
 Run the bot with your desired speed:
-
+```
 python typing_bot.py --wpm 60
-
+```
 ➡️ The bot will open Chrome, wait for the test to load, then type words as fast as possible until it reaches the target character count (based on WPM × 5).
 
 4. **📁 Project Structure**:
