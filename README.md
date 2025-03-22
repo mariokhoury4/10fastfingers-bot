@@ -16,9 +16,9 @@ Give it a target WPM (Words Per Minute), and it’ll type for you as fast as pos
 ---
 
 ## 📸 Demo
-<video width="600" height="600" controls>
-  <source src="https://github.com/mariokhoury4/10fastfingers-bot/blob/main/media/demo.mp4" type="video/mp4">
-</video>
+
+https://github.com/mariokhoury4/10fastfingers-bot/blob/main/media/demo.mp4
+
 
 ---
 
